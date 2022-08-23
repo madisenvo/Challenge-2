@@ -157,6 +157,13 @@ main {
     background-color: #ff1d58;
 }
 
+.gallery-images:hover, .project-1:hover{
+    padding:0;
+    box-shadow: inset 0px 0px 8px #ed084d , 0 0 15px #ed084d ;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
 .contact-links{
     display: flex;
     flex-direction: row;
