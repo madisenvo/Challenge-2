@@ -7,7 +7,6 @@ Links in nav bar take user to sections of the webpage and to my resume.
 Images on site link to their respective projects for in-depth viewing.
 "Contact me" section at the bottom of the page also contains functioning links.
 
-
 ## Installation
 
 No installation needed.
