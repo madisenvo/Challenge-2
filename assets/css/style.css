@@ -138,12 +138,13 @@ main {
     display:flex;
     flex-wrap:wrap;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .gallery-images{
     display: flex;
     position: relative;
-    width: 48%;
+    width: 46%;
     padding: 10px;
 }
 
@@ -170,6 +171,7 @@ main {
 
 .contact-links a{
     color:#ff1d58;
+    font-size: large;
 }
 
 .contact-links :hover {
