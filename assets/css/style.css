@@ -206,6 +206,12 @@
     .gallery-images{
         width: 100%;
     }
+    .side-title{
+        padding:0;
+        padding-right: 5px;
+        margin: 0;
+        font-size: smaller;
+    }
 }
 
 @media screen and (max-width: 725px) {
@@ -235,11 +241,6 @@
     }
     .links a {
         color:var(--background);
-    }
-    .side-title{
-        padding:0;
-        padding-right: 5px;
-        margin: 0;
     }
 }
 
