@@ -137,9 +137,14 @@
 /* formats small images */
 .image-small{
     width: 100%;
+    height:100%;
     position: relative;
     border: 3px solid var(--text);
+}
 
+.anchor{
+    width: 100%;
+    position: relative;
 }
 
 /* formats section containing small images */
@@ -160,7 +165,7 @@
 /* formats small image titles */
 .image-small-title{
     position: absolute;
-    bottom: 20px;
+    bottom:30px;
     left:10px;
     font-size: 20px;
     color: var(--background);
@@ -169,10 +174,9 @@
 
 
 /* adds hover animation */
-.gallery-images:hover, .project-1:hover{
-    padding:0;
+.anchor:hover, .project-1:hover{
+    margin: 0;
     box-shadow: inset 0px 0px 10px var(--shadow) , 0 0 20px var(--shadow) ;
-    cursor: pointer;
     transform: scale(1.01);
 }
 
@@ -235,6 +239,12 @@
     }
 }
 
+.side-title{
+    padding:0;
+    padding-right: 5px;
+    margin: 0;
+}
+
 @media screen and (max-width: 600px){
     .side-title{
         font-size: small;
@@ -262,6 +272,9 @@
 @media screen and (max-width: 375px){
     .side-title {
         font-size: xx-small;
+        padding:0;
+        padding-right: 2px;
+        margin: 0;
     }
     .figure-label{
         color:var(--text);
