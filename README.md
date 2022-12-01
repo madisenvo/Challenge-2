@@ -21,7 +21,7 @@ Click headings in nav bar or scroll to view webpage content.
 
 Click screenshots in "work" section to view project webpage. 
 
-![clickable screenshots of projects](assets/images/work.png)
+![clickable screenshots of projects](assets/images/work1.png)
 
 Click links in "contact me" section to email, view github profile, and view linkedin page. 
 
